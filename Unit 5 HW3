@@ -20,6 +20,12 @@ email VARCHAR(255));
 2. Insert 3 rows of data into these columns using INSERT. The data you insert should make sense
 for the column.
 
+Insert into A
+Values ('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com'),
+('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com'),
+('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com');
+
+
 3. Use an UPDATE to modify any portion of the data
 
 4. Finally, write a statement to delete one row of data.
