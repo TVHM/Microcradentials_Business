@@ -32,18 +32,21 @@ SELECT column1, column2,
 FROM another_table
 WHERE condition;
 
-
+INSERT INTO A
+SELECT city
+FROM account
+WHERE 
 
 3. Use an UPDATE to modify any portion of the data
 
-UPDATE table_name
-SET column1 = value1, column2 = value2, ...
-WHERE condition;
+UPDATE A
+SET CITY = NEW YORK, EMAIL = GD@GAMIL.COM
+WHERE CITY = LONDON;
 
 4. Finally, write a statement to delete one row of data.
 
 DELETE FROM table_name WHERE condition; 
-
+DELETE FROMA WHERECITY = LONDON;
 
 1. Using the following Link
 https://github.com/niteen11/cuny_lagcc_micro_credential_data_analytics/tree/main/Track%20A/U
