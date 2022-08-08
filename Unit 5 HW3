@@ -1,0 +1,39 @@
+1. Create a table with the following parameters:
+ CustomerID
+ CustomerName
+ Address
+ City
+ PostalCode
+ Country
+ Email
+
+2. Insert 3 rows of data into these columns using INSERT. The data you insert should make sense
+for the column.
+
+3. Use an UPDATE to modify any portion of the data
+
+4. Finally, write a statement to delete one row of data.
+
+1. Using the following Link
+https://github.com/niteen11/cuny_lagcc_micro_credential_data_analytics/tree/main/Track%20A/U
+nit%205%20-%20SQL_%20Relational%20Databases/guided%20exercise
+First you have to create a table than upload the data ,safe the table in to your Laptop and change the
+path accordingly.usr the following link for creating table,
+
+https://github.com/niteen11/cuny_lagcc_micro_credential_data_analytics/blob/main/Track%20A/Unit
+%205%20-%20SQL_%20Relational%20Databases/guided%20exercise/student.sql
+
+And attached data set (Student_data and Student_marks ) answer the following questions :
+-- students
+with the
+highest
+marks in
+Unit 4
+
+-- Find students scored between 89 and 100 unit4
+
+Open ended questions:
+-- Take a closer look at the tables that you created and come up with 10 different scenarios/
+
+questions and form SQL
+-- Ask your colleagues
