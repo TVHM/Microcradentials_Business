@@ -21,7 +21,8 @@ email VARCHAR(255));
 for the column.
 
 Insert into A
-Values ('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com'),
+Values 
+('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com'),
 ('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com'),
 ('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com');
 
