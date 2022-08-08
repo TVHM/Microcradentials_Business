@@ -11,7 +11,7 @@ CREATE TABLE Customer(
 ID serial PRIMARY KEY,
 CustomerName VARCHAR(255) NOT NULL,
 Address VARCHAR(255) NOT NULL,
-city VARCHAR(255)
+city VARCHAR(255),
 postalcode VARCHAR(255) NOT NULL,
 country VARCHAR(255) NOT NULL,
 email VARCHAR(255));
