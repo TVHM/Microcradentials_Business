@@ -27,9 +27,23 @@ Values
 ('Dave', 'Brand Rd', 'London', '123465','United Kingdom', 'dg@gamail.com');
 
 
+INSERT INTO table
+SELECT column1, column2,
+FROM another_table
+WHERE condition;
+
+
+
 3. Use an UPDATE to modify any portion of the data
 
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
 4. Finally, write a statement to delete one row of data.
+
+DELETE FROM table_name WHERE condition; 
+
 
 1. Using the following Link
 https://github.com/niteen11/cuny_lagcc_micro_credential_data_analytics/tree/main/Track%20A/U
