@@ -7,14 +7,14 @@
  Country
  Email
 
-CREATE TABLE Customer(
-ID serial PRIMARY KEY,
+CREATE TABLE A(customerid serial PRIMARY KEY,
 CustomerName VARCHAR(255) NOT NULL,
 Address VARCHAR(255) NOT NULL,
 city VARCHAR(255),
 postalcode VARCHAR(255) NOT NULL,
 country VARCHAR(255) NOT NULL,
 email VARCHAR(255));
+
 
 
 2. Insert 3 rows of data into these columns using INSERT. The data you insert should make sense
